@@ -10,7 +10,7 @@ begin
     gemspec.version = Rack::TimeZoneHeader::VERSION::STRING
     gemspec.name = "rack-time-zone-header"
     gemspec.summary = "Rack middleware for Time-Zone HTTP headers"
-    gemspec.description = "Allow web service clients to indicate which time zone the HTTP request is issued from."
+    gemspec.description = "Allow web service clients to specify the request time zone in an HTTP header."
     gemspec.email = "github@squareup.com"
     gemspec.homepage = "http://github.com/square/rack-time-zone-header"
     gemspec.authors = [
