@@ -1,0 +1,21 @@
+= Rack::TimeZoneHeader
+
+Rack middleware for parsing IETF draft {Time-Zone}[http://tools.ietf.org/html/draft-sharhalakis-httptz-05] HTTP headers.
+
+== Prerequisites
+
+* {Rack}[http://rack.rubyforge.org/]
+
+== Testing
+
+Testing requires the RSpec gem:
+
+* {Rspec}[http://rspec.info/]
+
+To test, run:
+  `rake`
+
+== License
+
+Copyright © 2010 Square, Inc.
+See LICENSE.txt in this directory.
