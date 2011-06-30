@@ -1,14 +1,7 @@
 require 'bundler/setup'
 require 'rake'
-require 'spec/rake/spectask'
 
-desc "Run all specs"
-Spec::Rake::SpecTask.new do |t|
-  t.spec_opts = ["--options", "spec/spec.opts"]
-  t.spec_files = FileList["spec/**/*_spec.rb"]
-  t.rcov = ENV["RCOV"]
-  t.rcov_opts = %w{--exclude osx\/objc,gems\/,spec\/}
-  t.verbose = true
-end
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
