@@ -1,9 +1,2 @@
+/Gemfile.lock
 *.gem
-*.gemspec
-*.log
-*.pid
-*.sqlite3
-*.tmproj
-.DS_Store
-log/*
-pkg/*
