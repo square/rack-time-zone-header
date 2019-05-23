@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ['README.rdoc', 'HISTORY.rdoc', 'LICENSE.txt']
   s.require_paths = ["lib"]
 
-  s.add_dependency 'rack', '~> 1.0'
+  s.add_dependency 'rack', '< 3'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'tzinfo', '>= 0.3.14'
   s.add_development_dependency 'rack-test', '~> 0.5'
